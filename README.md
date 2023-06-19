@@ -5,9 +5,8 @@
   check out https://bootrunner.com and https://www.moorspots.com
 </em></p>
 
-[![Twitter: soulmanthiezn](https://img.shields.io/twitter/follow/thiezn?style=flat-square)](https://twitter.com/soulmanthiezn)
+[![Twitter: thiezn_](https://img.shields.io/twitter/follow/thiezn?style=flat-square)](https://twitter.com/thiezn_)
 [![GitHub thiezn](https://img.shields.io/github/followers/hahwul?label=follow%20github&style=flat-square)](https://github.com/thiezn)
-[![Paypal thiezn](https://img.shields.io/badge/$-support-ff69b4.svg?style=flat)](https://paypal.me/thiezn)
 
 <br>
 
@@ -19,12 +18,14 @@
 import this
 
 class Person:
-
+  """Who am I, what am I doing here?"""
+  
    def __init__(self, name):
        self.name = name
 
    @property
    def whoami(self):
+      """Maybe the answer is here?"""
       print(f"Hi, I'm {self.name}!")
 
 if __name__ == "__main__":
