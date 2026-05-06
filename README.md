@@ -1,34 +1,47 @@
-<h2> Hey, I'm thiezn</h2>
+# Hey, I'm thiezn
+
 <img align='right' src="https://github-readme-stats.vercel.app/api?username=thiezn&show_icons=true&theme=radical" width="380">
-<p><em>Husband, dad, dabbler in things...<br>
-  too many hobbies, bug bounty, iOS app development, building tools in python, cloud technologies, bootrunning, photography...<br> 
-  check out https://bootrunner.com and https://www.moorspots.com
-</em></p>
+
+Husband, dad, dabbler in things...
+
+Too many hobbies, building tools in Rust and Python, Bug Bounty, iOS app development, cloud technologies, bootrunning, hobby electronics/robotics, photography...
+
 
 [![Twitter: thiezn_](https://img.shields.io/twitter/follow/thiezn?style=flat-square)](https://twitter.com/thiezn_)
 [![GitHub thiezn](https://img.shields.io/github/followers/hahwul?label=follow%20github&style=flat-square)](https://github.com/thiezn)
 
-<br>
-
 ### More about me...
 
 
+```rust
+fn main() {
+    let me = Person::new("thiezn");
+    me.whoami();
+}
 
-```python3
-import this
+struct Person {
+    name: &'static str,
+}
 
-class Person:
-  """Who am I, what am I doing here?"""
-  
-   def __init__(self, name):
-       self.name = name
+impl Person {
+    /// Who am I, what am I doing here?
+    fn new(name: &'static str) -> Self {
+        Self { name }
+    }
 
-   @property
-   def whoami(self):
-      """Maybe the answer is here?"""
-      print(f"Hi, I'm {self.name}!")
+    /// Maybe the answer is here?
+    fn whoami(&self) {
+        println!("Hi, I'm {}!", self.name);
+    }
+}
 
-if __name__ == "__main__":
-    me = Person("thiezn")
-    print(me.whoami)
 ```
+
+### Previously built
+[BootRunner](https://bootrunner.com)<br />
+_'Running and bodyweight exercises for everyone, anywhere'</li><br />_
+
+[Moorspots](https://www.moorspots.com)<br />
+_'Find your next destination. Detailed info on marinas and anchorages worldwide. With reviews and photos. Sail. Discover. Share.'<br />_
+
+<br>
